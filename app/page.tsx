@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { supabasePublic } from '@/lib/supabase'
 import type { Session } from '@/lib/types'
 
+export const dynamic = 'force-dynamic'
+
 // Thumbnail color palettes cycling per session index
 const PALETTES = [
   { from: '#1f2255', to: '#3d4178' },
